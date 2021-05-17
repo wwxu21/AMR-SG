@@ -1,0 +1,8 @@
+elasticsearch
+typing
+allennlp
+tqdm
+transformers
+torch
+tensorboardX
+tensorflow
