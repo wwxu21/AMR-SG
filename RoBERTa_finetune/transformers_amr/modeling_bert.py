@@ -678,7 +678,6 @@ class BertModel(BertPreTrainedModel):
         temp = (1 - gama) * sequence_output[:,0,:] + gama * fact_state[:,0,:]
         temp = temp.unsqueeze(1)
         pooled_output = self.pooler(temp)
-        # pooled_output = self.pooler(sequence_output)
 
         outputs = (sequence_output, pooled_output)  # add hidden_states and attentions if they are here
         return outputs  # sequence_output, pooled_output, (hidden_states), (attentions)
