@@ -463,7 +463,6 @@ def get_args():
     args.input = args.file + '2'
     return args
 
-#adapted by weiwen
 if __name__ == "__main__":
     max_fact = 15
     args = get_args()
