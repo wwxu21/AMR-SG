@@ -27,7 +27,7 @@ We present the results on [OpenBookQA](https://leaderboard.allenai.org/open_book
             - core-amr.txt (core fact AMRs from open-book)
             - comm-amr.txt (common fact AMRs from ARC-Corpus)
 
-2. Create ElasticSearch server
+2. Create ElasticSearch Server
 
 `python  data_preprocess/store_corpus.py --task_name ${input_file}`
 
@@ -35,7 +35,7 @@ We present the results on [OpenBookQA](https://leaderboard.allenai.org/open_book
 
 `bash do_preprocess.sh ${input_file}` (e.g. Data/obqa)
 
-4. Retrieve facts:
+4. Retrieve Facts:
 
 `bash do_retrieve.sh ${input_file}`
 
