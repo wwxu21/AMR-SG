@@ -45,5 +45,13 @@ We present the results on [OpenBookQA](https://leaderboard.allenai.org/open_book
 ## Citation
 If you find this work useful, please star this repo and cite our paper as follows:
 ```
-To be updated
+@misc{xu2021dynamic,
+      title={Dynamic Semantic Graph Construction and Reasoning for Explainable Multi-hop Science Question
+Answering}, 
+      author={Weiwen Xu and Huihui Zhang and Deng Cai and Wai Lam},
+      year={2021},
+      eprint={2105.11776},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
